@@ -1,10 +1,13 @@
 import styles from "../styles/eom.module.css"
+import {Toolbar} from "../components/toolbar"
 
 export const EOM = ({employee}) => {
     console.log(employee)
 
     return (
         <div className="page-container">
+            <Toolbar/>
+
             <div className={styles.main}>
                 <h1 className={styles.employeeOfTheMonth}>Employee of The Month</h1>
 
