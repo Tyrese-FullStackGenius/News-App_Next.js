@@ -12,7 +12,7 @@ export default function Home() {
         <h3>Your one stop shop for the latest news articles</h3>
         <p>
           Project based on the PortEXE video:
-          <a href="https://www.youtube.com/watch?v=xtItzwYG6oQ"> "Coding A News App With Next.js"</a>
+          <a href="https://www.youtube.com/watch?v=xtItzwYG6oQ"> Coding A News App With Next.js</a>
         </p>
       </div>
     </div>
