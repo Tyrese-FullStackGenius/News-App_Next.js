@@ -9,3 +9,7 @@
 .main h1 {
   margin-top: -50px;
 }
+
+.main a:hover {
+  color: rgb(168, 168, 168);
+}
