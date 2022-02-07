@@ -23,11 +23,13 @@ export const EOM = ({employee}) => {
 }
 
 export const getServerSideProps = async pageContext => {
-    const apiResponse = await fetch(
-        "https://my-json-server.typicode.com/portexe/next-news/employeeOfThEMonth"
-    )
 
-    const employee = await apiResponse.json()
+    const employee = {
+        name: "Pablo Felipe (PabloFLPs) 🦁",
+        position: "Web Developer",
+        image: "https://avatars.githubusercontent.com/u/58035837?v=4",
+        description: "For my family, I am the 'hackerman'."
+    }
 
     return {
         props: {
