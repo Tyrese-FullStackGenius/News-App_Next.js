@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { useRouter } from "next/router"
 import {Toolbar} from "../../components/toolbar"
 import styles from "../../styles/Feed.module.css"
