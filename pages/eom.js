@@ -16,7 +16,7 @@ export const EOM = ({employee}) => {
                     <h6>{employee.position}</h6>
                     <img src={employee.image}/>
                     <h6>
-                        <a href={employee.github} target="_blank">My Github</a>
+                        <a href={employee.github} target="_blank" rel="noopener">My Github</a>
                     </h6>
                     <p>{employee.description}</p>
                 </div>
